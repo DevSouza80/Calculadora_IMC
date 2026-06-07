@@ -3,24 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de IMC</title>
+    <!--link css-->
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/resete.css"/>
+    <!---->
+    <title>Projeto Calculadora IMC</title>
 </head>
 <body>
-    
-    <h1>Calculadora IMC</h1>
+    <section class="main-interface">
+        <div class="center-main">
+            <div class="title-brands">
+                <div class="icon-imc">
+                    <img src="./assets/img/icon-imc.svg" alt="icon-imc"/>
+                </div>
+                <div class="title-main">
+                    <h1>Calculadora de IMC</h1>
+                    <p>Descubra seu Índice de Massa Corporal em segundos</p>
+                </div>
+            </div>
+            <form  onsubmit="return calcular(event)" class="form-main">
+                <div class="input-n1">
+                    <label for="peso">Peso (kg)</label>
+                    <input type="text" id="peso" placeholder="Ex:70,5">
+                </div>
+                <div class="input-n2">
+                    <label for="altura">Altura (m)</label>
+                    <input type="text" id="altura" placeholder="Ex:1,75">
+                </div>
+                <div class="input-btn">
+                    <input type="submit" value="Calcular IMC">
+                </div>
+            </form>
+        </div>
+        <div id="resultado"></div>
+    </section>
 
-    <form onsubmit="return calcular(event)">
-        <label for="peso">Digite seu peso..</label><br><br>
-        <input type="text" id="peso" placeholder="Digite seu peso.."><br><br>
-        <label for="altura"></label><br><br>
-        <input type="text" id="altura" placeholder="Digite sua altura.."><br><br>
-        <input type="submit" placeholder="Calcular IMC">
-    </form>
-
-     <div id="container"></div>
-   
     <!--script js-->
-    <script src="./js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
     <!---->
 </body>
 </html>
