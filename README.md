@@ -27,7 +27,7 @@ O projeto foi desenvolvido com foco em praticar a integração entre **HTML estr
 
 ## 🖼 Preview
 
-![Preview do Projeto](./assets/img/interface.png)
+![Preview do Projeto](./assets/img/imc.png)
 
 ## ✅ Funcionalidades
 
