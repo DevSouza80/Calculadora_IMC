@@ -25,6 +25,10 @@ O projeto foi desenvolvido com foco em praticar a integração entre **HTML estr
 
 ---
 
+## 🖼 Preview
+
+![Preview do Projeto](./assets/img/interface.png)
+
 ## ✅ Funcionalidades
 
 - [x] Formulário com campos de **peso** e **altura**
